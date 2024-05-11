@@ -1,4 +1,4 @@
-import math
+
 import numpy as np
 
 layer_outputs = [4.8,1.21,2.385]
@@ -9,7 +9,7 @@ layer_outputs = [4.8,1.21,2.385]
 
 #E = 2.71828182846
 
-E = math.e
+
 
 #once we have that number , we wanna exp all the output
 
@@ -33,3 +33,6 @@ for value in exp_values:
     norm_values.append(value/norm_base)
 
 print(sum(norm_values))
+
+# the combination of exponentiation and normalization is basically softmax activation
+
